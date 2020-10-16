@@ -1,0 +1,22 @@
+{% extends "layout.njk"%}
+
+{%block head%}
+<title> cursos - Thales Santana</title>
+{%endblock%}
+
+{%block content %}
+<div class="cursos">
+    {%for ids in id%}
+        <div class="curso">
+            <a href="https://app.rocketseat.com.br/journey/{{ids.id_link}}" class="course_link" target="_blank">
+                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/{{ids.logo_link}}" alt="{{ids.id_link}}" class="{{ids.id_link}}">
+                <div  class="details">
+                    <p class="curso-info">{{ids.curso_info}}</p>
+                    <p class="price">{{ids.course_price}}</p>
+                </div>
+            </a>
+        </div>
+    {%endfor%}
+</div>
+    
+{%endblock%}
