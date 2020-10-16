@@ -23,7 +23,7 @@ server.get("/", function(req, res){
             avatar_url:"https://avatars1.githubusercontent.com/u/72896088?s=460&u=b106a4c508a64e6a9bf26446e5785bf77ca88619&v=4",
             name: "Thales Santana",
             role: "Desenvolvedor - Frontend",
-            description: 'Graduando Engenharia de Controle e Automação, Sólida Experiência com eletrônica e equipamentos biomédicos, conhecimento em processos hospitalares, desenvolvedor front-end, estudando atualmente React.js, NodeJS, API REST e Banco de dados MySQL.',
+            description: 'Desenvolvedor front-end, estudando atualmente React.js, NodeJS, API REST e Banco de dados MySQL.',
             links:[
                 {name:"Github", url: "https://github.com/thalesantana"},
                 {name:"Linkedin", url: "https://www.linkedin.com/in/thales-c-santana/"},
